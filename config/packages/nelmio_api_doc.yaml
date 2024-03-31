@@ -1,0 +1,10 @@
+nelmio_api_doc:
+  documentation:
+    enable_annotations: true,
+    info:
+      title: 'Audit Schedule'
+      description: 'This API helps auditors schedule their jobs.'
+      version: '1.0'
+  areas:
+    default:
+      path_patterns: ['^/api(?!/doc$)']
